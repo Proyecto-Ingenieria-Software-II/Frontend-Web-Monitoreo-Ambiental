@@ -8,7 +8,7 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
 }).addTo(map);
 
 // Cargar el GeoJSON de Bogotá
-fetch("/docs/geojson/bogota.geojson")
+fetch("./geojson/bogota.geojson")
   .then(res => res.json())
   .then(data => {
     // Crear capa GeoJSON
