@@ -3,7 +3,9 @@ name: Build and Analyze
 on:
   push:
     branches:
-      - master
+      - dev
+      - qa
+      - main
   pull_request:
     types: [opened, synchronize, reopened]
 
