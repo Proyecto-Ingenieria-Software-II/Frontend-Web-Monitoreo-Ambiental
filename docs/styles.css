@@ -83,7 +83,6 @@ footer a:hover {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  display: flex;
   justify-content: center;
   padding: 0 1em;
   gap: 0.2em;
